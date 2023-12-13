@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    /* text-align: center; */
+}
+
+.app{
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+
+    /* background-color: red; */
+}
+
+.app img{
+    width: 15%;
+    margin
+}
+
+.logo{
+    margin-bottom: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+.app-items{
+    padding: 30px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px green;
+
+
+}
+
+.top{
+    width: 100%;
+}
+
+.top img{
+    width: 40%;
+}
+
+.songs-container{
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+    /* border: 2px solid green; */
+}
+
+
+
+.song{
+    /* background-color: red; */
+    /* width: 100%; */
+    display: flex;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    align-items: center;
+    /* gap: 5px; */
+    cursor: pointer;
+    margin: 10px 0px;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.left img{
+    /* background-size: cover; */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.song span{
+    margin-right: 20px;
+
+}
+
+.song i{
+    padding-right: 10px;
+    /* margin-right: 10px; */
+}
+
+
+.bottom input {
+    width: 100%;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1em;
+}
+
+.btn{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.play{
+    font-size: 1.5em;
+}
+
+.fa-play-circle{
+    font-size: 1.3em;
+}
+
+.fa-pause-circle{
+    font-size: 1.3em;
+}
+
+
+.bottom-song{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+#gif{
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+#myprogressbar{
+    transition: all 0.3s ease-in-out;
+
+}

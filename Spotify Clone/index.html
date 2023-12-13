@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+
+<div class="container">
+    <div class="app">
+        <div class="logo">
+            <img src="img/logo.png" alt=""><br>
+            <h1>Spotify</h1>
+
+        </div>
+            
+        <div class="app-items">
+            <div class="top">
+                <img src="img/cover.jpeg" alt="">
+            </div>
+
+            <div class="songs-container">
+
+                <div class="song">
+                    <div class="left">
+                        <img alt="">
+                        <p class="songName"></p>
+                    </div>
+                    <span class="timestamp"></span>
+                    <i class="fa-solid songplay fa-play-circle" id="1"></i>
+                </div>
+
+                <div class="song">
+                    <div class="left">
+                        <img alt="">
+                        <p class="songName"></p>
+                    </div>
+                    <span class="timestamp"></span>
+                    <i class="fa-solid songplay fa-play-circle" id="2"></i>
+                </div>
+
+                <div class="song">
+                    <div class="left">
+                        <img alt="">
+                        <p class="songName"></p>
+                    </div>
+                    <span class="timestamp"></span>
+                    <i class="fa-solid songplay fa-play-circle" id="3"></i>
+                </div>
+
+                
+
+            </div>
+
+            <div class="bottom">
+                <div class="bottom-song">
+                    <p id="mastersongname"></p>
+                    <img src="img/playing.gif" alt="" id="gif">
+                </div>
+                <div class="bar">
+                    <input type="range" name="" id="myprogressbar" value="0" min="0" max="100">
+                </div>
+                <div class="time">
+                    <p></p>
+                    <p></p>
+                </div>
+                
+                <div class="btn">
+                    <i class="fa-solid fa-repeat"></i>
+                    <div class="play">
+                        <i class="fa-solid fa-caret-left" id="before"></i>
+                        <i class="fa-solid fa-play-circle" id="masterPlay"></i>
+                        <i class="fa-solid fa-caret-right" id="next"></i>
+
+                    </div>
+                    <i class="fa-solid fa-shuffle"></i>
+
+                </div>
+            </div>
+        </div>    
+            
+    </div>
+</div>
+
+<script src="https://kit.fontawesome.com/18d5e5a3ba.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>    
+</body>
+</html>

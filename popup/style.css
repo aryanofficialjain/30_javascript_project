@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+
+
+.container{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#click{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border-radius:10px;
+
+
+
+}
+
+.pop{
+    transition: all 1s ease-in-out;
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px black;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    visibility: hidden;
+}
+
+.active{
+    visibility: visible;
+    top: 50%;
+}
+
+
+.pop button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}

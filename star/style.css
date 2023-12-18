@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app{
+    width: 90%;
+    max-width: 300px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 25px;
+}
+.star{
+    margin-top: 20px;
+}
+
+.star i{
+    font-size: 25px;
+}
+
+.active{
+    color: gold;
+}

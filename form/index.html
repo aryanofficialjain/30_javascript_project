@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="app">
+            <form>
+
+                <div id="name" class="input">
+                    <label for="fname">Full Name</label>
+                    <input type="text" name="fname" id="nameinput" onkeyup="namefunc()">
+                    <span id="name-error"></span>
+                </div>
+
+                <div id="number" class="input">
+                    <label for="number">Ph.No</label>
+                    <input type="number" name="number" id="numberinput" onkeyup="numfunc()">
+                    <span id="number-error"></span>
+                </div>
+
+                <div id="email" class="input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="emailinput" onkeyup="emailfunc()">
+                    <span id="email-error"></span>
+                </div>
+                
+                <div id="msg" class="input">
+                    <label for="msg">Message</label>
+                    <input type="text" name="fname" id="msginput" onkeyup="msgfunc()">
+                    <span id="msg-error"></span>
+                </div>
+
+                <button onclick="return formis()">Submit</button>
+                <span id="submit-error"></span>
+                
+
+            </form>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/18d5e5a3ba.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>    
+</body>
+</html>

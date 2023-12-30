@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, purple,red);
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.game button{
+    /* width: 50px; */
+    padding: 10px;
+    margin: 0px 10px;
+
+}

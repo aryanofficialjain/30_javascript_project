@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto:wght@300&family=Ubuntu+Condensed&display=swap');
+
+:root{
+  color: var(--Black, #000);
+font-family: Poppins;
+/* font-size: 18px; */
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+scroll-behavior: smooth;
+scrollbar-arrow:hidden;
+
+}
+
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Optional: Style the scrollbar track and thumb */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
